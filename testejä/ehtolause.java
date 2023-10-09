@@ -1,4 +1,4 @@
-package testi1;
+package testejä;
 public class ehtolause {
 
 	public static void main(String[] args) {
