@@ -23,5 +23,6 @@ public class UserInput {
 		tulos = luku * 2;
 		
 		System.out.println(tulos);
+		in.close();
 }
 }

@@ -11,7 +11,8 @@ public class Tentti1 {
 		System.out.println("Second number?");
 		int Vastaus2 = sc.nextInt();
 		
-		int tulos = Vastaus1 + Vastaus2; 
+		int tulos = Vastaus1 + Vastaus2;
+		
 		
 		System.out.println("The sum is " + tulos + ".");
 	
@@ -28,6 +29,7 @@ public class Tentti1 {
 		Vastaus4 = in.nextLine();
 		
 		System.out.println("Your name is " + Vastaus3 + " and you are " + Vastaus4 + " years old.");
-		
+		in.close();
+		sc.close();
 }
 }
