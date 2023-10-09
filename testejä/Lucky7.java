@@ -13,14 +13,15 @@ public class Lucky7 {
 				
 				Scanner in = new Scanner(System.in);
 						String Panos;
+						int Saldo;
 						
 			// User input
 						
 				System.out.println("Paljonko rahaa haluat käyttää?");
 				Panos = in.nextLine();
-				Panosluvuksi = Integer.parseInt(Panos);
+				Saldo = Integer.parseInt(Panos);
 				
-				System.out.println("Panoksesi on "+PanosInt+"€.");
+				System.out.println("Panoksesi on "+Panos+"€.");
 				in.close();
 		    	
 			// Random Numbers
